@@ -25,4 +25,6 @@ fun main(args: Array<String>){
     println(movie.creator)
     println(movie.duration)
 
+    shoe.create();
+
 }

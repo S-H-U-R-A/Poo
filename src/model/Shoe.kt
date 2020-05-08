@@ -5,9 +5,10 @@ package model
 
 //Poner parentesis lo toma como el metodo constructor
 class Shoe(name: String, description: String, sku: Int, var brand: String):
-            Product(name, description, sku) {
+            Product(name, description, sku), ICrudActions {
 
     override fun create(): String {
+        saludar("Hola desde Create");
         return "Create shoe"
     }
 
