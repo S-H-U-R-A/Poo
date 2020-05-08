@@ -26,8 +26,6 @@ class Camera {
         return this.resolution;
     }
 
-
-
     /*public fun setCameraStatus(onOff: Boolean){
         this.isOn = onOff
     }*/
